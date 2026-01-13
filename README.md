@@ -14,4 +14,5 @@ venv\Scripts\activate # WINDOWS
 python treker.py
 ```
 
-# 4. Запустите файл treker.exe 
+# 4. Запустите файл treker.exe, он находится в директории dict. 
+
