@@ -1,0 +1,75 @@
+{
+  "users": {
+    "demo@example.com": {
+      "name": "Демо Пользователь",
+      "password": "demo123",
+      "created_at": "2026-01-14T00:30:47.124731"
+    },
+    "ivanplastun17@gmail.com": {
+      "name": "Иван",
+      "password": "Volk1771",
+      "created_at": "2026-01-14T00:31:18.253848"
+    }
+  },
+  "boards": {
+    "board_1": {
+      "id": "board_1",
+      "name": "Мой первый проект",
+      "owner": "demo@example.com",
+      "created_at": "2026-01-14T00:30:47.124731",
+      "columns": [
+        "To Do",
+        "In Progress",
+        "Review",
+        "Done"
+      ],
+      "items": {
+        "item_1": {
+          "id": "item_1",
+          "name": "Изучить Python",
+          "description": "Пройти курс по основам Python",
+          "status": "In Progress",
+          "created_by": "demo@example.com",
+          "created_at": "2026-01-14T00:30:47.124731",
+          "assigned_to": "demo@example.com",
+          "comments": [
+            {
+              "text": "Начал изучение!",
+              "author": "demo@example.com",
+              "created_at": "2026-01-14T00:30:47.124731"
+            }
+          ]
+        },
+        "item_2": {
+          "id": "item_2",
+          "name": "Создать проект",
+          "description": "Разработать консольное приложение",
+          "status": "To Do",
+          "created_by": "demo@example.com",
+          "created_at": "2026-01-14T00:30:47.124731",
+          "assigned_to": "demo@example.com",
+          "comments": []
+        }
+      },
+      "members": [
+        "demo@example.com"
+      ]
+    },
+    "board_2": {
+      "id": "board_2",
+      "name": "Пример доски",
+      "owner": "ivanplastun17@gmail.com",
+      "created_at": "2026-01-14T00:32:34.063554",
+      "columns": [
+        "To Do",
+        "In Progress",
+        "Review",
+        "Done"
+      ],
+      "items": {},
+      "members": [
+        "ivanplastun17@gmail.com"
+      ]
+    }
+  }
+}
