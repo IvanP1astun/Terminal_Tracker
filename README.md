@@ -10,4 +10,7 @@ venv\Scripts\activate # WINDOWS
 ```
 
 # 3. Запустите приложение в терминале
+```
 python treker.py
+```
+
